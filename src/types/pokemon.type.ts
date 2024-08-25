@@ -1,7 +1,10 @@
 import { Field, ObjectType } from "@nestjs/graphql";
 
 @ObjectType()
-export class pokemon {
+export class Pokemon {
     @Field()
     name: string;
+
+    @Field()
+    image: string;
 }

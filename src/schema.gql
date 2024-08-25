@@ -2,10 +2,12 @@
 # THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
 # ------------------------------------------------------
 
-type pokemon {
+type Pokemon {
   name: String!
+  image: String!
 }
 
 type Query {
-  pokemon(name: String!): pokemon!
+  pokemon(name: String!): Pokemon!
+  pokemons(offset: String! = "0"): [Pokemon!]!
 }
