@@ -7,5 +7,5 @@ type pokemon {
 }
 
 type Query {
-  pokemon: pokemon!
+  pokemon(name: String!): pokemon!
 }
