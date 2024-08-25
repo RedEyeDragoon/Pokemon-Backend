@@ -1,0 +1,11 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type pokemon {
+  name: String!
+}
+
+type Query {
+  pokemon: pokemon!
+}
